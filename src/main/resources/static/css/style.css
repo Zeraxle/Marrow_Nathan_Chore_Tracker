@@ -1,0 +1,161 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: none;
+	padding: none;
+	
+}
+
+/* GENERAL STYLING */
+
+body {
+	background-color: antiquewhite;
+}
+
+header {
+	background-color: burlywood;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 20px;
+}
+
+main {
+	color: darkslategray;
+	background-color: antiquewhite;
+	display:flex;
+	gap: 10px;
+	justify-content: space-around;
+}
+
+h1{
+	color: lightcyan;
+	padding: 20px;
+}
+
+.h1-index {
+	background-color: burlywood;
+	color: lightcyan;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+
+
+.reg-div, .log-div {
+	display:flex;
+	flex-flow: column;
+	gap:15px;
+}
+
+
+h2 {
+	margin-left: 30%;
+}
+
+a {
+	padding-left: 8px;
+	text-decoration: none;
+	color: darkslategray;
+}
+
+nav a {
+	font-size: 20px;
+	color: lightcyan;
+}
+
+
+/* 'INDEX' STYLING */
+.index-main {
+	display:flex;
+	gap: 10px;
+	justify-content:space-around;
+	
+}
+
+/* 'DASHBOARD' STYLING */
+
+.dashboard-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding: 20px;
+}
+
+.dashboard-main {
+	color: darkslategray;
+	background-color: antiquewhite;
+	display:flex;
+	gap: 10px;
+	justify-content: space-between;
+}
+
+#table {
+	background-color: darksalmon;
+	
+}
+
+#dash-links {
+	display: flex;
+	border-bottom: white;
+}
+
+td a, td input {
+	text-decoration: underline;
+}
+
+#cancel-button, #add-button{
+	background-color: white;
+    border: none;
+    color: #007bff;
+    line-height:normal;
+    cursor: pointer;
+    background-color: darksalmon;
+}
+
+/* 'JOBDETAILS' STYLING */
+
+#add-button-details{
+	background-color: white;
+    border: none;
+    color: #007bff;
+    line-height:normal;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.detail-box {
+	display:flex;
+	flex-flow: column;
+	align-items: center;
+	font-size: 20px;
+	gap: 30px;
+}
+
+.info-div {
+	display:flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+/* 'EDITJOB' STYLING */
+
+/* 'CREATEWORKER STYLING' */
+
+/* ADDJOB STYLING */
+
+
+
+
+
+
+
+
